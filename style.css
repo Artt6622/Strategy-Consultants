@@ -1,0 +1,264 @@
+.ph1 {
+    width: 40px;
+    height: 40px;
+}
+#b {
+    position: absolute;
+    top: 1%;
+    animation-name: butt;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+}
+
+@keyframes butt {
+    from {
+        top: 1%;
+    }
+    to {
+        top: 25%; 
+    } 
+}
+.wb {
+    position: absolute;
+    top: -25%;
+    left: 5%;
+    animation-name: wb;
+    animation-duration: 4s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite; 
+
+}
+@keyframes wb {
+    from {
+        top: -25%;
+    }
+    to {
+        top: 15%; 
+    } 
+}
+
+.wb2 {
+    position: absolute;
+    top: -25%;
+    left: 30%;
+    animation-name: wb2;
+    animation-duration: 4s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite; 
+}
+@keyframes wb2 {
+    from {
+        top: -25%;
+    }
+    to {
+        top: 15%; 
+    } 
+}
+
+.wb3 {
+    position: absolute;
+    top: -25%;
+    left: 55%;
+    animation-name: wb3;
+    animation-duration: 4s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite; 
+
+}
+@keyframes wb3 {
+    from {
+        top: -25%;
+    }
+    to {
+        top: 15%; 
+    } 
+}
+
+.wb4 {
+    position: absolute;
+    top: -25%;
+    left: 80%;
+    animation-name: wb4;
+    animation-duration: 4s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite; 
+
+}
+@keyframes wb4 {
+    from {
+        top: -25%;
+    }
+    to {
+        top: 15%; 
+    } 
+}
+
+/* animation-iteration-count: infinite; */
+.i1 {
+    width: 160px;
+    height: 160px;
+    background-image: url(images/j.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius :80px;
+    display:inline-block;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -25%;
+}
+
+.i2 {
+    width: 160px;
+    height: 160px;
+    background-image: url(images/u.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius :80px;
+    display:inline-block;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -25%;
+}
+
+
+.i3 {
+    width: 160px;
+    height: 160px;
+    background-image: url(images/f.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius :80px;
+    display:inline-block;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -25%;
+}
+.bm1 {
+width: 140%;
+height: 250px;
+position: absolute;
+top: 100%;
+display: none;
+}
+.bm2 {
+width: 140%;
+height: 250px;
+position: absolute;
+top: 100%;
+display: none;
+}
+
+.bm3 {
+width: 140%;
+height: 250px;
+position: absolute;
+top: 100%;
+display: none;
+}
+
+.i1:hover .bm1 {
+    display: block;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.i2:hover .bm2 {
+    display: block;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.i3:hover .bm3 {
+    display: block;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+.boxf {
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    animation-name: boxf;
+    animation-duration: 4s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+
+}
+@keyframes boxf {
+    from {
+        top:35%;
+    }
+    to {
+        top: 60%;
+    }
+}
+
+.a {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  animation-name: a;
+  animation-duration: 4s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+
+}
+
+@keyframes a {
+    from{
+       left: 0%;
+    }
+    to {
+        left: 25%;
+    }
+}
+
+.b {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  animation-name: b;
+  animation-duration: 4s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+
+}
+@keyframes b {
+    from{
+       left: 0%;
+    }
+    to {
+        left: 45%;
+    }
+}
+
+.c {
+  position: absolute;
+  top: 50%;
+  left: 65%;
+  animation-name: c;
+  animation-duration: 4s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+
+}
+
+@keyframes c {
+    from{
+      left: 0%;
+    }
+    to {
+      left: 65%;
+    }
+}
